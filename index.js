@@ -4,7 +4,7 @@ const PORT = 4000
 
 
 app.get('/', (req, res) => {
-  res.status(200).json('Welcome, your app is working well');
+  res.send('Welcome, your app is working well');
 })
 
 
